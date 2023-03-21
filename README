@@ -1,0 +1,15 @@
+Detection and degradation of Alzheimer’s disease
+
+HISTORY AND CONTEXT
+Alzheimer’s disease is a type of dementia where the person’s memory, thinking, and behavior gets affected. The condition can become so severe with time that it can start affecting daily functioning and life of a patient. Patients with Alzheimer’s can see a decline in their brain capacity which helps them remember, and early treatment can be very beneficial.
+
+WHY THIS TOPIC
+Early onset of this disease can be monitored by observing the patient’s brain activity. Early detection leads to faster checkups and access to starting treatment with advanced trials quickly. Since we are using a sample of real time data, eventually, our dashboard can be paired with built in predictive analytics tools for doctors to estimate changes in patient health status to aid their diagnosis.
+
+WHAT QUESTIONS ARE WE AIMING
+● We are interested in seeing the trends of Alzheimer patients in general, with an aim to figure out additional alarming patterns and factors that can lead to Alzheimers.
+● We want to conduct a comparison of brain activities in a patient before and after being detected with Alzheimer's, with an aim to understand brain degradation patterns involved if any, after Alzheimer's detection too. A comparison of a non-Alzheimer’s patient will also provide good insights about brain functionalities. Visual representations of such complex datasets can aid in faster diagnosis.
+● We want to check if data visualization helps in early detection of the disease, or any other factor leading to the disease. This data can also be fed to the ML models for better analytics.
+
+DESCRIBE DATASET
+We have a real-time time-series dataset from a hospital as shared by a doctor we have been working with for research since our undergrad. We have used this dataset previously to build analytics models for it. (We can provide additional details for the data source if required) Since this data is in a time series format, each patient is assigned a unique ID denoted by RID. The time series aspect of the dataset can be seen in the VISCODE column wherein ‘bl’ denotes the baseline value of the feature related to that patient and ‘m06’, ‘m12’ etc, denotes the subsequent months of the recorded feature. The DX_BL column shows the patient diagnosis at that point in time (denoted by VISCODE). The data is divided into 4 modals depicting CSF biomarkers, Cognitive Modal, MRI modal, and Demographic Modal. All these modals have data related to the brain activity which is recorded such as MRI modal has data for Hippocampus, Entorhinal, etc. and Cognitive Modal has data for EcogPtMem and EcogPtTotal, etc. These are the tracking points to study factors leading to Alzheimer’s onset.
